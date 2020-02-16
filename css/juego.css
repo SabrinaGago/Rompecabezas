@@ -1,0 +1,114 @@
+body {
+  font-family: font-family: 'Titillium Web', sans-serif;
+  width: 70%;
+  margin: auto;
+  margin-top:0.5%;
+  min-height: 100%;
+  background-image: url(../images/fondo.jpg);
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  color: #042c62;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+  color: #042c62;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40 h1 {
+  font-size: 30px;
+  color: #042c62;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin-top: 0;
+  vertical-align: top;
+}
+
+.col-40 {
+  background:#f6efef;
+  padding: 30px;
+  color: 	#4b5567;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+.col-60 {
+  background-color: #c73e1d;
+  background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+  padding:3px;
+}
+
+#titulo {
+  font-size: 60px;
+}
+
+#flecha{
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.texto-centrado {
+  text-align: center;
+  color: 	#4b5567;
+  font-size: 30px;
+  color: #042c62;
+}
+
+#juego {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width: 600px;
+  justify-content:center;
+}
+
+#juego div {
+  text-align: center;
+  float: left;
+}
+
+img {
+  width:98%;
+
+}
+
+#final2{
+  height: 100px;
+  width:  100px;
+}
+
+.piezas {
+  margin: 1px;
+  width: 32.9%;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#footer{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  color:#e1e1e1;
+  background-color: #c73e1d;
+  background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+  opacity: 0.9;
+  text-align: center;
+}
